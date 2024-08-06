@@ -11,14 +11,14 @@ const Hero = () => {
           src={background}
           style={{ width: "100%", height: "auto" }}
         />
-        <div className="absolute top-0 left-0 flex flex-col items-center justify-center h-screen p-24 gap-10">
+        <div className="absolute top-0 left-0 right-0 flex flex-col items-center justify-center h-screen max-w-full p-24 gap-10">
           <div>
-            <h1 className=" text-4xl font-black sm:text-5xl md:text-7xl">
+            <h1 className=" text-4xl font-black text-white sm:text-5xl md:text-7xl">
               Metagun
             </h1>
           </div>
           <div>
-            <h1 className="relative text-1xl font-black sm:text-1xl md:text-2xl">
+            <h1 className="relative text-1xl font-black text-white sm:text-1xl md:text-2xl">
               Gunny hay nhất mọi thời đại
             </h1>
           </div>
