@@ -1,9 +1,13 @@
+import Hero from "./components/Hero";
+import NavBar from "./components/Navbar";
+import styles from "./page.module.css";
 import "./globals.css";
 
 export default function Home() {
   return (
-    <main className="">
-      <h1>HOME</h1>
+    <main className={styles.main}>
+      {/* <NavBar /> */}
+      <Hero />
     </main>
   );
 }
