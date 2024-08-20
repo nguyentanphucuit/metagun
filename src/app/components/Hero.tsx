@@ -1,40 +1,50 @@
-import React from "react";
-import Image from "next/image";
-import background from "/public/assets/img/bgyeugunny.png";
-import bgMetagun from "/public/assets/img/bgmetagun1.jpg";
-import logoMetagun from "/public/assets/img/metagun-logo-nobg.png";
-import playNow from "/public/assets/img/play-now.gif";
-import styles from "../page.module.css";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
+import styles from "../page.module.css";
+import playNow from "/public/assets/img/play-now.gif";
+import zaloIcon from "/public/assets/img/zalo-icon.png";
 
 const Hero = () => {
   return (
     <>
+      <div className="fixed bottom-4 right-4">
+        <Link href="https://zalo.me/g/rldqiw474" target="_blank">
+          <ExportedImage
+            width={64}
+            height={64}
+            className="animate-bounce"
+            alt="metagun button"
+            src={zaloIcon}></ExportedImage>
+        </Link>
+      </div>
       <div className={styles.contents}>
-        <div className={styles.logo}>
-          <Image
+        <div></div>
+        {/* <div className={styles.logo}>
+          <ExportedImage
             width={200}
             height={200}
             alt="metagun button"
-            src={logoMetagun}></Image>
-        </div>
+            src={logoMetagun}></ExportedImage>
+        </div> */}
 
-        <h1>Deep blue cinematics</h1>
+        {/* <h1>Deep blue cinematics</h1>
         <div className={styles.buttons}>
           <button>Out work</button>
           <button>Out story</button>
-        </div>
-        <Image
-          className="animate-bounce"
-          width={364}
-          height={112}
-          alt="metagun button"
-          src={playNow}></Image>
+        </div> */}
+        <Link href="http://metagun.net">
+          <ExportedImage
+            className="animate-bounce"
+            width={364}
+            height={112}
+            alt="metagun button"
+            src={playNow}></ExportedImage>
+        </Link>
       </div>
 
       <video autoPlay loop muted preload="none" className={styles.video}>
         <source
-          src="https://img.zing.vn/products/gn/landing/2021-chuong-ga-tranh-ba/images/video-bg.mp4"
+          src="https://metagun.vn/assets/video/background.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

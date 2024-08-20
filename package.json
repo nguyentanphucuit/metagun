@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "export": "next build && next-image-export-optimizer",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,6 +12,7 @@
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
     "next": "14.2.5",
+    "next-image-export-optimizer": "^1.14.1",
     "react": "^18",
     "react-dom": "^18"
   },
