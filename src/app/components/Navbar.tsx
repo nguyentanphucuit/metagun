@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Disclosure,
   DisclosureButton,
@@ -9,6 +11,9 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import React from "react";
+
+import { usePathname } from "next/navigation";
 
 const navigation = [
   { name: "Trang chủ", href: "/", current: true },
@@ -27,6 +32,10 @@ function classNames(...classes: (string | boolean | undefined)[]) {
 }
 
 export default function NavBar() {
+  const pathname = usePathname();
+  navigation.map((item) => {
+    item.href == pathname ? (item.current = true) : (item.current = false);
+  });
   return (
     <Disclosure as="nav" className="absolute transparent w-full">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

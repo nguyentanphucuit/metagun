@@ -72,4 +72,15 @@ export const CountdownTimer = ({ targetDate, labels }: CountdownTimerProps) => {
   );
 };
 
-export default CountdownTimer;
+export const CountdownTimerComponent = () => {
+  // const today = new Date();
+  let target = new Date("2024-08-30T10:00:00");
+  target.setDate(target.getDate());
+  const timerLabels = ["Ngày", "Giờ", "Phút", "Giây"];
+
+  return (
+    <CountdownTimer targetDate={target.toISOString()} labels={timerLabels} />
+  );
+};
+
+export default CountdownTimerComponent;

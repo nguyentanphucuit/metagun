@@ -3,13 +3,9 @@ import Link from "next/link";
 import styles from "../page.module.css";
 import playNow from "/public/assets/img/play-now.gif";
 import zaloIcon from "/public/assets/img/zalo-icon.png";
-import CountdownTimer from "./CountdownTimer";
+import CountdownTimerComponent from "./CountdownTimer";
 
 const Hero = () => {
-  const today = new Date();
-  let target = new Date(today);
-  target.setDate(target.getDate() + 14);
-  const timerLabels = ["days", "hours", "minutes", "seconds"];
   return (
     <>
       <div className="fixed bottom-4 right-4">
@@ -46,7 +42,7 @@ const Hero = () => {
             src={playNow}></ExportedImage>
         </Link>
       </div>
-      <CountdownTimer targetDate={target.toISOString()} labels={timerLabels} />
+      <CountdownTimerComponent />
 
       <video autoPlay loop muted preload="none" className={styles.video}>
         <source
