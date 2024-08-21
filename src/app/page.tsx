@@ -5,9 +5,10 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      {/* <NavBar /> */}
-      <Hero />
-    </main>
+    <>
+      <main className={styles.main}>
+        <Hero />
+      </main>
+    </>
   );
 }

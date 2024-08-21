@@ -5,7 +5,6 @@ import NavBar from "../components/Navbar";
 const MainHome = () => {
   return (
     <>
-      <NavBar />
       <Hero />
     </>
   );
