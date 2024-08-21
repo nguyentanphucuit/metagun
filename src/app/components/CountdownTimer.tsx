@@ -79,7 +79,9 @@ export const CountdownTimerComponent = () => {
   const timerLabels = ["Ngày", "Giờ", "Phút", "Giây"];
 
   return (
-    <CountdownTimer targetDate={target.toISOString()} labels={timerLabels} />
+    <div className="hidden lg:block">
+      <CountdownTimer targetDate={target.toISOString()} labels={timerLabels} />
+    </div>
   );
 };
 

@@ -10,12 +10,12 @@ const Hero = () => {
     <>
       <div className="fixed bottom-4 right-4">
         <Link href="https://zalo.me/g/rldqiw474" target="_blank">
-          <ExportedImage
-            width={64}
-            height={64}
-            className="animate-bounce"
-            alt="metagun button"
-            src={zaloIcon}></ExportedImage>
+          <div className="w-12 h-12 lg:w-16 lg:h-16">
+            <ExportedImage
+              className="animate-bounce"
+              alt="metagun button"
+              src={zaloIcon}></ExportedImage>
+          </div>
         </Link>
       </div>
       <div className={styles.contents}>
