@@ -48,7 +48,7 @@ export const CountdownTimer = ({ targetDate, labels }: CountdownTimerProps) => {
     <div className="flex items-start justify-center w-full gap-1.5 count-down-main">
       {timeLeft.map((num, index) => (
         <div key={index} className="timer">
-          <div className="rounded-xl bg-black/25 backdrop-blur-sm py-3 min-w-[96px] flex items-center justify-center flex-col gap-1 px-3">
+          <div className="rounded-xl bg-black/25 backdrop-blur-sm min-w-[96px] flex items-center justify-center flex-col gap-1 p-3 ">
             <h3 className="countdown-element seconds font-manrope font-semibold text-2xl text-white text-center">
               {String(num).padStart(2, "0")}
             </h3>
@@ -57,16 +57,6 @@ export const CountdownTimer = ({ targetDate, labels }: CountdownTimerProps) => {
             </p>
           </div>
         </div>
-        // <div  className="timer__card">
-        //       <div
-        //         className={`${
-        //           num !== prevTimeLeft.current[index] ? "flipper" : ""
-        //         }`}></div>
-        //       <span className="timer__card-num">
-        //         {String(num).padStart(2, "0")}
-        //       </span>
-        //   <p className="timer__card-val">{labels[index]}</p>
-        // </div>
       ))}
     </div>
   );

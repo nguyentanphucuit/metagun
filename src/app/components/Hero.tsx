@@ -34,12 +34,14 @@ const Hero = () => {
           <button>Out story</button>
         </div> */}
         <Link href="http://metagun.net">
-          <ExportedImage
-            className="animate-bounce"
-            width={364}
-            height={112}
-            alt="metagun button"
-            src={playNow}></ExportedImage>
+          <div className="w-64 h-24 md:w-72 lg:w-80">
+            <ExportedImage
+              className="animate-bounce"
+              width={364}
+              height={112}
+              alt="metagun button"
+              src={playNow}></ExportedImage>
+          </div>
         </Link>
       </div>
       <CountdownTimerComponent />
