@@ -31,33 +31,38 @@ const categories = [
         id: 1,
         title: "Bước 1",
         content: "Nhấn vào đây để tải về",
-        href: "https://bom.so/1zO97I",
+        href: "https://testflight.apple.com/join/FUpss8pj",
         blank: true,
         icon: AppleIcon,
       },
       {
         id: 2,
         title: "Bước 2",
-        content:
-          "Nhấn vào cài đặt, kéo xuống dưới cùng tìm dòng Quản lý VPN & Ứng dụng",
+        content: "Tải và sử dụng theo dướng dẫn là xong",
       },
-      {
-        id: 3,
-        title: "Bước 3",
-        content: "Nhấn vào Sunshine Insurance Group -> Chọn tin tưởng -> OK",
-      },
-      {
-        id: 4,
-        title: "Chơi trên mobile",
-        content: "",
-        video: "https://metagun.vn/assets/video/TutorialSetup.mp4",
-      },
-      {
-        id: 5,
-        title: "Xem hướng dẫn chi tiết",
-        content: "",
-        video: "https://metagun.vn/assets/video/DetailSetup.mp4",
-      },
+      // {
+      //   id: 2,
+      //   title: "Bước 2",
+      //   content:
+      //     "Nhấn vào cài đặt, kéo xuống dưới cùng tìm dòng Quản lý VPN & Ứng dụng",
+      // },
+      // {
+      //   id: 3,
+      //   title: "Bước 3",
+      //   content: "Nhấn vào Sunshine Insurance Group -> Chọn tin tưởng -> OK",
+      // },
+      // {
+      //   id: 4,
+      //   title: "Chơi trên mobile",
+      //   content: "",
+      //   video: "https://metagun.vn/assets/video/TutorialSetup.mp4",
+      // },
+      // {
+      //   id: 5,
+      //   title: "Xem hướng dẫn chi tiết",
+      //   content: "",
+      //   video: "https://metagun.vn/assets/video/DetailSetup.mp4",
+      // },
     ],
   },
   {
@@ -67,7 +72,7 @@ const categories = [
         id: 1,
         title: "Bước 1",
         content: "Nhấn vào đây để tải về",
-        href: "https://s.net.vn/iMI0",
+        href: "https://mega.nz/file/TQtWEIrb#CMb4Jn2paNi94XUHkr8m1YWEqrq27YlaSZ53uhDtMYQ",
         blank: true,
         icon: GoogleIcon,
       },
