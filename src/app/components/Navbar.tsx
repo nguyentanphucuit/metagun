@@ -90,12 +90,13 @@ export default function NavBar() {
       </div>
 
       <DisclosurePanel className="sm:hidden">
-        <div className="space-y-1 px-2 pb-3 pt-2 pl-96">
+        <div className="space-y-1 px-2 pb-3 pt-2 pl-6">
           {navigation.map((item) => (
             <DisclosureButton
               key={item.name}
               as="a"
               href={item.href}
+              target={item.blank ? "_blank" : "_self"}
               aria-current={item.current ? "page" : undefined}
               className={classNames(
                 item.current
