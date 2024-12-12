@@ -1,5 +1,5 @@
 import ExportedImage from "next-image-export-optimizer";
-import timeline from "/public/assets/img/TimelineCycle.png";
+import timeline from "/public/assets/img/MTG-Timeline-W2.png";
 
 import React from "react";
 
