@@ -64,7 +64,7 @@ export const CountdownTimer = ({ targetDate, labels }: CountdownTimerProps) => {
 
 export const CountdownTimerComponent = () => {
   // const today = new Date();
-  let target = new Date("2024-11-30T19:00:00");
+  let target = new Date("2025-02-15T19:00:00");
   target.setDate(target.getDate());
   const timerLabels = ["Ngày", "Giờ", "Phút", "Giây"];
 
