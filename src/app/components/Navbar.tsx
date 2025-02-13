@@ -23,6 +23,7 @@ import { usePathname } from "next/navigation";
 
 const navigation = [
   { name: "Trang chủ", href: "/", current: true },
+  { name: "Game Xưa", href: "/oldGame", current: false },
   {
     name: "Tải game",
     href: "/download",
@@ -30,7 +31,6 @@ const navigation = [
     blank: false,
     current: false,
   },
-  { name: "Game Xưa", href: "/oldGame", current: false },
   { name: "Tin Tức", href: "/news", current: false },
   // { name: "Nhận CODE", href: "/code", current: false },
   { name: "Lộ trình", href: "/timeline", current: false },

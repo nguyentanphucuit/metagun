@@ -3,6 +3,7 @@ import News from "../components/News";
 import { title } from "process";
 import news1 from "/public/assets/img/MTG-Background-Open-T2-25.png";
 import ExportedImage from "next-image-export-optimizer";
+import ListGame from "../components/ListGame";
 
 const news = [
   {
@@ -66,16 +67,21 @@ const NewsList = async () => {
             <News key={news.id} {...news} />
           ))}
         </div> */}
-        <div className="flex justify-center">
-          <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmetagun886&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=815214780790704"
-            width="500"
-            height="800"
-            style={{ border: "none", overflow: "hidden" }}
-            scrolling="no"
-            frameBorder="0"
-            allowFullScreen={true}
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div className="flex flex-row gap-4">
+          <div className="w-1/3">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmetagun886&tabs=timeline&width=500&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=815214780790704"
+              width="500"
+              height="800"
+              style={{ border: "none", overflow: "hidden" }}
+              scrolling="no"
+              frameBorder="0"
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+          <div className="w-2/3">
+            <ListGame />
+          </div>
         </div>
       </div>
     </>
