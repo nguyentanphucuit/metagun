@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <div className="fixed bottom-4 right-4">
-        <Link href="https://zalo.me/g/gqyswn554" target="_blank">
+        <Link href="https://zalo.me/g/rldqiw474" target="_blank">
           <div className="w-12 h-12 lg:w-16 lg:h-16">
             <ExportedImage
               className="animate-bounce"
@@ -48,7 +48,7 @@ const Hero = () => {
 
       <video autoPlay loop muted preload="none" className={styles.video}>
         <source
-          src="https://metagun.vn/assets/video/background.mp4"
+          src="https://res.cloudinary.com/dfgp67riy/video/upload/v1739444191/background_ofrg6h.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.

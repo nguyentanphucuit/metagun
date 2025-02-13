@@ -1,5 +1,5 @@
 import React from "react";
-import news from "/public/assets/img/BG_METAGUN.png";
+import news from "/public/assets/img/MTG-Background-Open-T2-25.png";
 import zaloSellSource from "/public/assets/img/zaloSellSource.jpg";
 import ExportedImage from "next-image-export-optimizer";
 

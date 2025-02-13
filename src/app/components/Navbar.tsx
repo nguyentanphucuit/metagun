@@ -30,11 +30,11 @@ const navigation = [
     blank: false,
     current: false,
   },
+  { name: "Game Xưa", href: "/oldGame", current: false },
   { name: "Tin Tức", href: "/news", current: false },
   // { name: "Nhận CODE", href: "/code", current: false },
   { name: "Lộ trình", href: "/timeline", current: false },
-
-  { name: "Bán/Thuê Server", href: "/sellServer", current: false },
+  // { name: "Bán/Thuê Server", href: "/sellServer", current: false },
 ];
 
 function classNames(...classes: (string | boolean | undefined)[]) {

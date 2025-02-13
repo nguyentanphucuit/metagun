@@ -1,7 +1,7 @@
 import React from "react";
 import News from "../components/News";
 import { title } from "process";
-import news1 from "/public/assets/img/BG_METAGUN.png";
+import news1 from "/public/assets/img/MTG-Background-Open-T2-25.png";
 import ExportedImage from "next-image-export-optimizer";
 
 const news = [

@@ -8,6 +8,7 @@ const TimeLine = () => {
     <div className="max-h-96">
       <ExportedImage
         className="rounded-t-lg"
+        style={{ width: "100vw", height: "100vh" }}
         alt="metagun button"
         src={timeline}></ExportedImage>
     </div>
