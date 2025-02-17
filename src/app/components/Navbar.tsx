@@ -23,7 +23,7 @@ import { usePathname } from "next/navigation";
 
 const navigation = [
   { name: "Trang chủ", href: "/", current: true },
-  { name: "Game Xưa", href: "/oldGame", current: false },
+  { name: "Game Xưa", href: "https://gamexua.vn", current: false, blank: true },
   {
     name: "Tải game",
     href: "/download",
