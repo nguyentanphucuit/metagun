@@ -31,7 +31,7 @@ const categories = [
         id: 1,
         title: "Bước 1",
         content: "Nhấn vào đây để tải về",
-        href: "https://testflight.apple.com/join/CXXkPFgB",
+        href: "https://testflight.apple.com/join/FUpss8pj",
         blank: true,
         icon: AppleIcon,
       },
