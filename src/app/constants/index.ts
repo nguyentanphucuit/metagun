@@ -22,6 +22,15 @@ const emptyEquipment = {
   discount: 0,
 };
 
+const socials = {
+  facebook: "https://www.facebook.com/metagun886",
+  youtube: "https://www.youtube.com/@metagunvn",
+  tiktok: "https://www.tiktok.com/@metagunvn",
+  zalo: "https://zalo.me/g/gqyswn554",
+  video:
+    "https://res.cloudinary.com/dfgp67riy/video/upload/v1745247126/Background_-_Metagun_mflahr.mp4",
+};
+
 const listItems = [
   {
     id: "1",
@@ -107,4 +116,4 @@ const listItems = [
   },
 ];
 
-export { listItems, sourcesPerPage, emptyMessage, emptyEquipment };
+export { listItems, sourcesPerPage, emptyMessage, emptyEquipment, socials };
