@@ -20,6 +20,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className="flex flex-col justify-between items-center w-full h-screen">
+        <div></div>
         {/* <div className={styles.logo}>
           <ExportedImage
             width={200}
